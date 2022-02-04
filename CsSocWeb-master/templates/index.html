@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>The Computer Science Society, St. Stephen College</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Fitness In Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- bootstrap-css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="{{ url_for('static', filename='css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all" />
+
+	<!--// bootstrap-css -->
+	<!-- css -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}" type="text/css" media="all" />
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}" type="text/css" media="all" />
+	<link rel="stylesheet" href="{{ url_for('static', filename='util.css')}}" type="text/css" media="all" />
+	<link rel="stylesheet" href="{{ url_for('static', filename='mobile.css')}}" type="text/css" media="all" />
+	<!--// css -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/lightbox.css')}}">
+	<!-- font-awesome icons -->
+	<link href="{{ url_for('static', filename='css/font-awesome.css')}}" rel="stylesheet">
+	<!-- //font-awesome icons -->
+	<!-- font -->
+	<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+		rel="stylesheet">
+	<link
+		href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+		rel="stylesheet">
+	<!-- //font -->
+	<script src="{{ url_for('static', filename='js/jquery-1.11.1.min.js')}}"></script>
+	<script src="{{ url_for('static', filename='js/bootstrap.js')}}"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+
+	<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+
+<body>
+	<!-- banner -->
+	<div class="banner">
+		<div class="address-info">
+			<div class="container">
+				<div class="address-info-text">
+					<p><i class="fa fa-map-marker" aria-hidden="true"></i>The Computer Science Society, St. Stephen
+						College, University of Delhi</p>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div class="banner-info">
+			<div class="banner-info-text">
+				<div class="container">
+					<div class="agileits-logo">
+						<h1><a href="/">The Computer Science Society</a></h1>
+					</div>
+					<div class="w3-border"> </div>
+					<div class="w3layouts-banner-info">
+						<div class="w3ls-button">
+							<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top-info">
+						<nav class="navbar navbar-default">
+
+
+
+
+
+
+							<!-- Brand and toggle get grouped for better mobile display -->
+
+
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+
+
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+
+							<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+								<nav>
+									<ul class="nav navbar-nav">
+										<li class="active"><a href="index.html">Home</a></li>
+										<li><a href="#Articles" class="scroll">Articles</a></li>
+										<li><a href="#about" class="scroll">About</a></li>
+										<li><a href="#services" class="scroll">Events</a></li>
+										<li><a href="#gallery" class="scroll">Photo Gallery</a></li>
+										<li><a href="#team" class="scroll">Team</a></li>
+										<li><a href="#news" class="scroll">News and Update </a></li>
+										<li><a href="#mail" class="scroll">Contact Us</a></li>
+									</ul>
+								</nav>
+							</div>
+
+
+							<!-- /.navbar-collapse -->
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- modal -->
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+							aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">The Computer Science Society <span>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="{{ url_for('static', filename='images/math3.jpg')}}" alt="" />
+						<p>
+							The Computer Science Society, a.k.a. CompSoc. We are a bunch of geeks set out to make the
+							ever-evolving world of Information Technology more enjoyable, and understandable for
+							everyone. The society began in 1991 when a group of students from the College came together
+							to share their love for technology with the world. It has been our agenda to profess that
+							computing is beyond writing complex code.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //modal -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- 	Blog -->
+	<div class="about" id="Articles">
+		<div class="container">
+			<div class="agileits-heading">
+				<h3>Articles</h3>
+			</div>
+			<div class="container">
+
+				{%for Post in Posts%}
+				{% set IMAGE= 'images/' +Post.ImgFile %}
+				<div class="home-article">
+					<div class="home-article-image"><img src="{{ url_for('static', filename=IMAGE)}}"></div>
+					<div class="home-articles-content">
+
+						<!-- <a href="Post/{{Post.slug}}" target="_blank"> -->
+						<a href="Post/{{Post.slug}}">
+							<h3>{{Post.PostTitle}}</h3>
+						</a>
+						<div><span>Posted by {{Post.PostedBy}}</span></div>
+						<span> {{Post.DT}}</span> <br>
+						<span> {{Post.PostContent[0:55]}}....</span>
+					</div>
+				</div>
+
+
+
+				{% endfor %}
+
+				<!--blog2-->
+
+
+
+
+
+
+
+
+
+
+				<!-- about -->
+
+				<div class="about" id="about">
+					<div class="container">
+						<div class="agileits-heading">
+							<h3>About Us</h3>
+						</div>
+						<div class="w3l-about-grids">
+							<div class="col-md-6 w3ls-about-right">
+								<div class="w3ls-about-right-img">
+
+								</div>
+							</div>
+							<div class="col-md-6 w3ls-about-left">
+								<div class="agileits-icon-grid">
+
+
+									<p class="para"
+										style="font-size:27px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+										We are dedicated to the promotion of the various facets of computing. We strive
+										to promote gaming, technology, applications, programming, science, and fiction,
+										inter alia. We aim to do this through our workshops, gaming events, newsletters,
+										seminars, and various full-filled events.
+									</p>
+
+									<p class="para"
+										style="font-size:27px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+										The society strives to extend beyond the conventional domains of computing
+										through a series of multi-disciplinary events. Most importantly, we wish to
+										familiarize people with technology, to increase digital literacy through fun
+										events, talks, meme competitions, blogs, journal, and Instagram posts.
+
+									</p>
+									<p class="para"
+										style="font-size:27px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+										In the past, we have hosted Workshops and Talks, Orfik, Cybercept (Annual Fest),
+										Tech Hunt, Quizzes. Cybercept is our annual fest. It includes a series of
+										events, workshops, and talks which are aimed at bringing out the coder/analyst
+										in you. We have a variety of events that attract both tech-geeks and non-geeks
+										alike. GAMEface is a landmark event for the CompSoc in particular and the
+										college in general. It is the biggest event of this kind held on our campus. It
+										goes on for an entire weekend with participation from colleges like IIT Delhi,
+										DCE, NSIT, SRCC, HINDU, and so on.
+									</p>
+									<p class="para"
+										style="font-size:27px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+										We are a melange of people brought together by a common idea: Tech is the
+										future.
+									</p>
+
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<!-- //about -->
+
+
+
+				<!-- services -->
+				<div class="services" id="services">
+					<div class="container">
+						<div class="agileits-heading">
+							<h3>Events</h3>
+						</div>
+						<div class="wthree-services-grids">
+							<div class="col-sm-3 wthree-services">
+								<div class="wthree-services-grid">
+									<div class="wthree-services-info">
+										<i class="fa fa-money" aria-hidden="true"></i>
+										<h4>Clash of Memers</h4>
+										<div class="w3ls-border"> </div>
+									</div>
+									<div class="wthree-services-captn">
+										<h4>Clash of Memers</h4>
+										<p> Description
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 wthree-services">
+								<div class="wthree-services-grid">
+									<div class="wthree-services-info">
+										<i class="fa fa-comment-o" aria-hidden="true"></i>
+										<h4>Tech Talk by Arjoon Sharma</h4>
+										<div class="w3ls-border"> </div>
+									</div>
+									<div class="wthree-services-captn">
+										<h4>Tech Talk by Arjoon Sharma</h4>
+										<p>A quiz everything about maths. It is a battle of brain for quizzers and an
+											opportunity for all quizzers.
+											It is a feast for all who want to learn something new from new and broaden
+											perspective.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 wthree-services">
+								<div class="wthree-services-grid">
+									<div class="wthree-services-info">
+										<i class="fa fa-user-o" aria-hidden="true"></i>
+										<h4>404: General Quiz-CS Flavoured</h4>
+										<div class="w3ls-border"> </div>
+									</div>
+									<div class="wthree-services-captn">
+										<h4>404: General Quiz-CS Flavoured</h4>
+										<p>
+											Treasure Hunt is basically a series of clues, one leading to the other, with
+											the
+											fastest to solve all clues winning the T-Hunt. It is one of our biggest
+											events </p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 wthree-services">
+								<div class="wthree-services-grid">
+									<div class="wthree-services-info">
+										<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+										<h4>Python Classes</h4>
+										<div class="w3ls-border"> </div>
+									</div>
+									<div class="wthree-services-captn">
+										<h4>Python Classes</h4>
+										<p>A 2 day lecture series, workshop, tutorials on topics related to maths. We
+											have eminent professors in it form
+											IISER, DRDO, IISC,IITs etc for sharing their knowledge with students.
+
+
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="wthree-services-grids services-grids1">
+							<div class="col-sm-3 wthree-services">
+								<div class="wthree-services-grid">
+									<div class="wthree-services-info">
+										<i class="fa fa-bell-o" aria-hidden="true"></i>
+										<h4>CyberSecurity 101</h4>
+										<div class="w3ls-border"> </div>
+									</div>
+									<div class="wthree-services-captn">
+										<h4>CyberSecurity 101</h4>
+										<p>An annual congregation of maths professors and enthusiastic with a great
+											learning process going underway.
+											It is a sneak peak for many math enthusiasts. </p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 wthree-services">
+								<div class="wthree-services-grid">
+									<div class="wthree-services-info">
+										<i class="fa fa-sun-o" aria-hidden="true"></i>
+										<h4>Orfik 2021</h4>
+										<div class="w3ls-border"> </div>
+									</div>
+									<div class="wthree-services-captn">
+										<h4>Orfik 2021</h4>
+										<p>The annual 2 days fest of mathematics society having the amalgation of more
+											than 6 events and
+											had participation from all over the university. </p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 wthree-services">
+								<div class="wthree-services-grid">
+									<div class="wthree-services-info">
+										<i class="fa fa-credit-card" aria-hidden="true"></i>
+										<h4>Write-A-Thon</h4>
+										<div class="w3ls-border"> </div>
+									</div>
+									<div class="wthree-services-captn">
+										<h4>Write-A-Thon</h4>
+										<p>A variable event. Alohomora is a fun event based on the theme of Harry
+											Potter. Even an online event but
+											its feedback is mind blowing amazing. </p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 wthree-services">
+								<div class="wthree-services-grid">
+									<div class="wthree-services-info">
+										<i class="fa fa-bullhorn" aria-hidden="true"></i>
+										<h4>Tech Literacy</h4>
+										<div class="w3ls-border"> </div>
+									</div>
+									<div class="wthree-services-captn">
+										<h4>Tech Literacy</h4>
+										<p>A collaboration between Society an dcollege professors for work together on a
+											research Paper. This
+											is the great exposure for all those who had deep interest in research and
+											want a chance to nurutre their skills.
+
+
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+				<!-- //services -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<!-- gallery -->
+				<div id="gallery" class="gallery">
+					<div class="container">
+						<div class="agileits-heading">
+							<h3>Photo Gallery</h3>
+						</div>
+						<div class="gallery-w3lsrow">
+							<div class="col-sm-3 col-xs-4 gallery-grids">
+								<div class="w3ls-hover">
+									<a href="{{ url_for('static', filename='images/pg1.jpg')}}"
+										data-lightbox="example-set">
+										<img src="{{ url_for('static', filename='images/pg1.jpg')}}"
+											class="img-responsive zoom-img" alt=""
+											style=" height:380px; width:285px " />
+										<div class="view-caption">
+											<h5>Image1</h5>
+											<i class="fa fa-search-plus" aria-hidden="true"></i>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-4 gallery-grids">
+							<div class="w3ls-hover">
+								<a href="{{ url_for('static', filename='images/pg2.jpg')}}" data-lightbox="example-set">
+									<img src="{{ url_for('static', filename='images/pg2.jpg')}}"
+										class="img-responsive zoom-img" alt="" style=" height:380px; width:285px " />
+									<div class="view-caption">
+										<h5>Image2</h5>
+										<i class="fa fa-search-plus" aria-hidden="true"></i>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-4 gallery-grids">
+							<div class="w3ls-hover">
+								<a href="{{ url_for('static', filename='images/pg3.jpg')}}" data-lightbox="example-set">
+									<img src="{{ url_for('static', filename='images/pg3.jpg')}}"
+										class="img-responsive zoom-img" alt="" style=" height:380px; width:285px " />
+									<div class="view-caption">
+										<h5>Image3</h5>
+										<i class="fa fa-search-plus" aria-hidden="true"></i>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-4 gallery-grids">
+							<div class="w3ls-hover">
+								<a href="{{ url_for('static', filename='images/pg4.jpg')}}" data-lightbox="example-set">
+									<img src="{{ url_for('static', filename='images/pg4.jpg')}}"
+										class="img-responsive zoom-img" alt="" style=" height:380px; width:285px " />
+									<div class="view-caption">
+										<h5>Image4</h5>
+										<i class="fa fa-search-plus" aria-hidden="true"></i>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-4 gallery-grids">
+							<div class="w3ls-hover">
+								<a href="{{ url_for('static', filename='images/pg9.jpg')}}" data-lightbox="example-set">
+									<img src="{{ url_for('static', filename='images/pg9.jpg')}}"
+										class="img-responsive zoom-img" alt="" style=" height:380px; width:285px " />
+									<div class="view-caption">
+										<h5>Image5</h5>
+										<i class="fa fa-search-plus" aria-hidden="true"></i>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-4 gallery-grids">
+							<div class="w3ls-hover">
+								<a href="{{ url_for('static', filename='images/pg6.jpg')}}" data-lightbox="example-set">
+									<img src="{{ url_for('static', filename='images/pg6.jpg')}}"
+										class="img-responsive zoom-img" alt="" style=" height:380px; width:285px " />
+									<div class="view-caption">
+										<h5>Image6</h5>
+										<i class="fa fa-search-plus" aria-hidden="true"></i>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-4 gallery-grids">
+							<div class="w3ls-hover">
+								<a href="{{ url_for('static', filename='images/pg7.jpg')}}" data-lightbox="example-set">
+									<img src="{{ url_for('static', filename='images/pg7.jpg')}}"
+										class="img-responsive zoom-img" alt="" style=" height:380px; width:285px " />
+									<div class="view-caption">
+										<h5>Image7</h5>
+										<i class="fa fa-search-plus" aria-hidden="true"></i>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-4 gallery-grids">
+							<div class="w3ls-hover">
+								<a href="{{ url_for('static', filename='images/pg8.jpg')}}" data-lightbox="example-set">
+									<img src="{{ url_for('static', filename='images/pg8.jpg')}}"
+										class="img-responsive zoom-img" alt="" style=" height:380px; width:285px " />
+									<div class="view-caption">
+										<h5>Image8</h5>
+										<i class="fa fa-search-plus" aria-hidden="true"></i>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!--  light box js -->
+					<script src="{{ url_for('static', filename='js/lightbox-plus-jquery.min.js')}}"> </script>
+					<!-- //light box js-->
+				</div>
+			</div>
+			<!-- //gallery -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<!-- team -->
+			<div id="team" class="team">
+				<div class="container">
+					<div class="agileits-heading">
+						<h3>Our Team</h3>
+					</div>
+
+					<div class="teamw3-agileinfo">
+						<div class="col-md-3 col-xs-6 team-wthree-grid">
+							<div class="btm-right">
+								<img src="{{ url_for('static', filename='images/pulkit.jfif')}}" alt=" "
+									style="height:350px">
+								<div class="w3social-icons captn-icon">
+									<ul>
+										<li><a href="https://www.linkedin.com/in/pulkit11" target=_BLANK><i
+													class="fa fa-linkedin"></i></a></li>
+
+									</ul>
+								</div>
+								<div class="captn">
+									<h4>Pulkit</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-6 team-wthree-grid">
+							<div class="btm-right">
+								<img src="{{ url_for('static', filename='images/vishal.jfif')}}" alt=" "
+									style="height:350px">
+								<div class="w3social-icons captn-icon">
+									<ul>
+										<li><a href="https://www.linkedin.com/in/v4vishal4vs" target=_BLANK><i
+													class="fa fa-linkedin"></i></a></li>
+
+									</ul>
+								</div>
+								<div class="captn">
+									<h4>Vishal</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-6 team-wthree-grid">
+							<div class="btm-right">
+								<img src="{{ url_for('static', filename='images/sharon.jpg')}}" alt=" "
+									style="height:350px">
+								<div class="w3social-icons captn-icon">
+									<ul>
+										<li><a href="https://www.linkedin.com/in/sharon-alex-488681192" target=_BLANK><i
+													class="fa fa-linkedin"></i></a></li>
+
+									</ul>
+								</div>
+								<div class="captn">
+									<h4>Sharon</h4>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-md-3 col-xs-6 team-wthree-grid">
+							<div class="btm-right">
+								<img src="{{ url_for('static', filename='images/harsh.jfif')}}" alt=" "
+									style="height:350px">
+								<div class="w3social-icons captn-icon">
+									<ul>
+										<li><a href="https://www.linkedin.com/in/harsh-bindal-a394511a2/"
+												target=_BLANK><i class="fa fa-linkedin"></i></a></li>
+
+									</ul>
+								</div>
+								<div class="captn">
+									<h4>Harsh</h4>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+			<div class="teamw3-agileinfo">
+				<div class="col-md-3 col-xs-6 team-wthree-grid">
+					<div class="btm-right">
+						<img src="{{ url_for('static', filename='images/hari.png')}}" alt=" " style="height:350px">
+						<div class="w3social-icons captn-icon">
+							<ul>
+								<li><a href="" target=_BLANK><i class="fa fa-linkedin"></i></a></li>
+
+							</ul>
+						</div>
+						<div class="captn">
+							<h4>Hari</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 team-wthree-grid">
+					<div class="btm-right">
+						<img src="{{ url_for('static', filename='images/prashasti.jfif')}}" alt=" "
+							style="height:350px">
+						<div class="w3social-icons captn-icon">
+							<ul>
+								<li><a href="https://www.linkedin.com/in/prashasti-sarraf-a99246201" target=_BLANK><i
+											class="fa fa-linkedin"></i></a></li>
+
+							</ul>
+						</div>
+						<div class="captn">
+							<h4>Prashasti</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 team-wthree-grid">
+					<div class="btm-right">
+						<img src="{{ url_for('static', filename='images/ayan.png')}}" alt=" " style="height:350px">
+						<div class="w3social-icons captn-icon">
+							<ul>
+								<li><a href="https://www.linkedin.com/in/ayan-ahmed-bbb5b7204/" target=_BLANK><i
+											class="fa fa-linkedin"></i></a></li>
+
+							</ul>
+						</div>
+						<div class="captn">
+							<h4>Ayan</h4>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-md-3 col-xs-6 team-wthree-grid">
+					<div class="btm-right">
+						<img src="{{ url_for('static', filename='images/abhijeet.jpg')}}" alt=" " style="height:350px"
+							x>
+						<div class="w3social-icons captn-icon">
+							<ul>
+								<li><a href="https://www.linkedin.com/in/abhijeet-kumar-nath-82b623203" target=_BLANK><i
+											class="fa fa-linkedin"></i></a></li>
+
+							</ul>
+						</div>
+						<div class="captn">
+							<h4>Abhijeet</h4>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+
+
+
+
+
+
+
+
+				<div class="teamw3-agileinfo">
+					<div class="col-md-3 col-xs-6 team-wthree-grid">
+						<div class="btm-right">
+							<img src="{{ url_for('static', filename='images/binit.jfif')}}" alt=" "
+								style="height:350px">
+							<div class="w3social-icons captn-icon">
+								<ul>
+									<li><a href="https://www.linkedin.com/in/binit-tete-617a39200/" target=_BLANK><i
+												class="fa fa-linkedin"></i></a></li>
+
+								</ul>
+							</div>
+							<div class="captn">
+								<h4>Binit</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-6 team-wthree-grid">
+						<div class="btm-right">
+							<img src="{{ url_for('static', filename='images/divye.jpg')}}" alt=" " style="height:350px">
+							<div class="w3social-icons captn-icon">
+								<ul>
+									<li><a href="https://www.linkedin.com/in/divye-satija-a576271bb" target=_BLANK><i
+												class="fa fa-linkedin"></i></a></li>
+
+								</ul>
+							</div>
+							<div class="captn">
+								<h4>Divye</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-6 team-wthree-grid">
+						<div class="btm-right">
+							<img src="{{ url_for('static', filename='images/gauravi.png')}}" alt=" "
+								style="height:350px">
+							<div class="w3social-icons captn-icon">
+								<ul>
+									<li><a href="https://www.linkedin.com/in/gauravi-kashyap-175a481b8/"
+											target=_BLANK><i class="fa fa-linkedin"></i></a></li>
+
+								</ul>
+							</div>
+							<div class="captn">
+								<h4>Gauravi</h4>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-md-3 col-xs-6 team-wthree-grid">
+						<div class="btm-right">
+							<img src="{{ url_for('static', filename='images/joel.jfif')}}" alt=" " style="height:350px">
+							<div class="w3social-icons captn-icon">
+								<ul>
+									<li><a href="https://www.linkedin.com/in/joel-john-b21249201/" target=_BLANK><i
+												class="fa fa-linkedin"></i></a></li>
+
+								</ul>
+							</div>
+							<div class="captn">
+								<h4>Joel</h4>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+
+
+
+
+
+					<div class="teamw3-agileinfo">
+						<div class="col-md-3 col-xs-6 team-wthree-grid">
+							<div class="btm-right">
+								<img src="{{ url_for('static', filename='images/kanupriya.jfif')}}" alt=" " style="height:350px">
+								<div class="w3social-icons captn-icon">
+									<ul>
+										<li><a href="https://www.linkedin.com/in/kanupriya-jain-719781200" target=_BLANK ><i class="fa fa-linkedin"></i></a></li>
+		
+									</ul>
+								</div>
+								<div class="captn">
+									<h4>Kanupriya</h4>
+								</div>
+							</div>
+						</div>
+
+
+
+						<div class="col-md-3 col-xs-6 team-wthree-grid">
+							<div class="btm-right">
+								<img src="{{ url_for('static', filename='images/rudraksh.jpg')}}" alt=" "
+									style="height:350px">
+								<div class="w3social-icons captn-icon">
+									<ul>
+										<li><a href="https://www.linkedin.com/in/rud737/" target=_BLANK><i
+													class="fa fa-linkedin"></i></a></li>
+		
+									</ul>
+								</div>
+								<div class="captn">
+									<h4>Rudraksh</h4>
+								</div>
+							</div>
+						</div>
+
+
+			
+		
+						<div class="col-md-3 col-xs-6 team-wthree-grid">
+							<div class="btm-right">
+								<img src="{{ url_for('static', filename='images/rayyan.png')}}" alt=" " style="height:350px"
+									x>
+								<div class="w3social-icons captn-icon">
+									<ul>
+										<li><a href="https://www.linkedin.com/in/rayyan-ahmed-6182bb204" target=_BLANK><i
+													class="fa fa-linkedin"></i></a></li>
+		
+									</ul>
+								</div>
+								<div class="captn">
+									<h4>Rayyan</h4>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+
+
+
+
+
+
+
+
+			<!-- //team -->
+
+
+			<!-- news -->
+
+			<div class="news" id="news" style="margin-top:5em;">
+
+				<div class="agileits-heading">
+					<h3>News & Updates</h3>
+				</div>
+				<div class="container">
+					<div class="news-agileinfo">
+						<div class="col-md-4 news-right agileits-w3layouts">
+
+
+
+
+
+							<h4>Our Achievements</h4>
+							<div class="achievesw3-agile">
+								<ul>
+									<li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Our society LinkedIn
+										page was launced and gained over 130 followers.</li>
+									<li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Clash of Memers
+										recieved more than 120 registartions</li>
+									<li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Tech Talk by Arjoon
+										Sharma got more than 100 registartions</li>
+									<li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>404: General Quiz-CS
+										Flavoured got more than 267 registartions</li>
+									<li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Orientation was
+										attended by more than 30 junior members of college</li>
+									<li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Python Classes
+										recieved more than 87 registartions</li>
+									<li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>CyberSecurity 101
+										recieved more than 250 registartions</li>
+									<li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Orfik 2021 recieved
+										more than 290 registartions</li>
+									<li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Write-A-Thon recieved
+										more than 47 registartions</li>
+									<li><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Our society InstGram
+										page grew from 70 to over 250 followers.</li>
+								</ul>
+
+
+
+
+							</div>
+						</div>
+						<div class="col-md-8 news-w3row">
+							<div class="wthree-news-grids">
+								<div class="col-md-3 col-xs-3 datew3-agileits">
+									<img src="{{ url_for('static', filename='images/ts1.jpg')}}" class="img-responsive"
+										alt="" />
+								</div>
+								<div class="col-md-9 col-xs-9 datew3-agileits-info ">
+									<h5><a href="https://www.instagram.com/p/CGxQTBvjGHU/" data-toggle="modal"
+											data-target="#myModal">Clash of Memers</a></h5>
+									<h6>24th October to 23rd November 2020</h6>
+									<p>An online open for all Meme Making Competiton where top entries recieve Netflix subscriptions</p>
+									<a href=https://linktr.ee/compsoc_ssc>Click here to register</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="wthree-news-grids news-grids-mdl">
+								<div class="col-md-3 col-xs-3 datew3-agileits datew3-agileits-fltrt">
+									<img src="{{ url_for('static', filename='images/ts2.jpg')}}" class="img-responsive"
+										alt="" />
+								</div>
+								<div class="col-md-9 col-xs-9 datew3-agileits-info datew3-agileits-info-fltlft">
+									<h5><a href="https://www.instagram.com/p/CHhmKyDj6mq/" data-toggle="modal" data-target="#myModal">404 : General Quiz - CS Flavoured</a>
+									</h5>
+									<h6>15th November 2020</h6>
+									<p>A general quiz with a flavour of Computer Science organised in collaboration with the Quiz Club<a href=https://linktr.ee/compsoc_ssc> Click here to register</a>
+									</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="wthree-news-grids">
+								<div class="col-md-3 col-xs-3 datew3-agileits">
+									<img src="{{ url_for('static', filename='images/ts3.jpg')}}" class="img-responsive"
+										alt="" />
+								</div>
+								<div class="col-md-9 col-xs-9 datew3-agileits-info ">
+
+									<h5><a href="https://www.instagram.com/p/B2d8jLLDDPU/" data-toggle="modal" data-target="#myModal">Python Classes</a></h5>
+									<h6>16th January to 24th February 2021</h6>
+									<p>An introductory course on python for the junior members of college taught by the programming team<a href=https://linktr.ee/compsoc_ssc> Click here to register</a>
+
+									</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="wthree-news-grids news-grids-mdl">
+								<div class="col-md-3 col-xs-3 datew3-agileits datew3-agileits-fltrt">
+									<img src="{{ url_for('static', filename='images/ts2.jpg')}}" class="img-responsive"
+										alt="" />
+								</div>
+								<div class="col-md-9 col-xs-9 datew3-agileits-info datew3-agileits-info-fltlft">
+									<h5><a href="https://www.instagram.com/p/CKV342VjeSf/" data-toggle="modal" data-target="#myModal">Orfik</a>
+									</h5>
+									<h6>24th January 2021</h6>
+									<p>An online open for all treasure and scavenger hunt packed with thrilling turn at each of the 20 steps<a href=https://linktr.ee/compsoc_ssc> Click here to register</a>
+									</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!-- //news -->
+
+
+
+
+			<!-- contact -->
+
+
+			<div class="contact" id="mail">
+				<div class="container">
+					<div class="agileits-heading">
+						<h3>Contact Us</h3>
+					</div>
+					<div class="contact-w3ls-row">
+						<div class="w3agile-map">
+
+
+
+
+
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.1551423345177!2d77.21133951456078!3d28.685005388456123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd93efe5376b%3A0x87e7248a72724203!2sSt%20Stephen&#39;s%20College!5e0!3m2!1sen!2sin!4v1602924040304!5m2!1sen!2sin"
+								allowfullscreen=""></iframe>
+						</div>
+						<div class="wthree-contact-form">
+							<!-- <form action="#" method="post">
+						<div class="col-md-5 col-sm-5 agileits-contact-right">
+							<textarea name="Message" placeholder="Message" required=""></textarea>
+						</div>
+						<div class="col-md-7 col-sm-7 agileits-contact-left">
+							<input type="text" name="First Name" placeholder="First Name" required="">
+							<input type="text" class="email" name="Last Name" placeholder="Last Name" required="">
+							<input type="text" name="Number" placeholder="Mobile Number" required="">
+							<input type="email" class="email" name="Email" placeholder="Email" required="">
+							<input type="submit" value="SUBMIT">
+						</div>
+						<div class="clearfix"> </div>
+					</form> -->
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			<!-- contact -->
+			<!-- footer -->
+			<div class="footer">
+				<div class="container">
+
+
+					<div class="agile_footer_copy">
+						<div class="w3agile_footer_grids">
+							<div class="col-md-4 w3agile_footer_grid">
+								<h3>About Us</h3>
+								<p>From code on the screen to the device in your hand, The Computer Science Society will
+									go through it, one byte at a time.</p>
+							</div>
+							<div class="col-md-4 w3agile_footer_grid">
+								<h3>Contact Info</h3>
+								<ul>
+									<li><i class="fa fa-map" aria-hidden="true"></i> St.Stephen College,
+										<span>University of Delhi</span>
+									</li>
+									<li><i class="fa fa-envelope" aria-hidden="true"></i> <a
+											href="mailto:computer.society.ssc@gmail.com">computer.society.ssc@gmail.com</a></li>
+									<li><i class="fa fa-volume-control-phone" aria-hidden="true"></i>+91- 63949 25898
+									</li>
+								
+		<br>
+
+									<a href="https://www.linkedin.com/in/the-computer-science-society-st-stephen-s-college-7746951b6" >
+									<img src="{{ url_for('static', filename='images/Linkedin.png')}}" style="height:35px; width: 35px; margin-right: 1em;">
+									</a>
+
+
+									<a href="https://www.facebook.com/TheCompSoc/" >
+										<img src="{{ url_for('static', filename='images/Fb.png')}} " style="height:38px; width: 38px; margin-right: 1em">
+										</a>
+
+										<a href="https://www.instagram.com/compsoc.ssc/" >
+											<img src="{{ url_for('static', filename='images/insta.png')}}" style="height:38px; width: 38px">
+											</a>
+			
+
+
+									<br>
+										  
+			</ul>
+
+
+							</div>
+							<div class="col-md-4 w3agile_footer_grid w3agile_footer_grid1">
+								<h3>Navigation</h3>
+								<ul>
+									<li><i class="fa fa-angle-right" aria-hidden="true"></i> <a href="#about"
+											class="scroll">About</a></li>
+									<li><i class="fa fa-angle-right" aria-hidden="true"></i> <a href="#services"
+											class="scroll">Events</a></li>
+									<li><i class="fa fa-angle-right" aria-hidden="true"></i> <a href="#gallery"
+											class="scroll">Photo Gallery</a></li>
+									<li><i class="fa fa-angle-right" aria-hidden="true"></i> <a href="#team"
+											class="scroll">Team</a></li>
+									<li><i class="fa fa-angle-right" aria-hidden="true"></i> <a href="#news"
+											class="scroll">News</a></li>
+									<li><i class="fa fa-angle-right" aria-hidden="true"></i> <a href="#mail"
+											class="scroll">Contact</a></li>
+								</ul>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+
+					<div class="w3_agileits_copy_right_social">
+						<div class="agileits_w3layouts_copy_right">
+							<p>&copy; 2021 The Computer Science Society. All rights reserved
+							</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<!-- //footer -->
+			<script src="{{ url_for('static', filename='js/jarallax.js')}}"></script>
+			<script src="{{ url_for('static', filename='js/SmoothScroll.min.js')}}"></script>
+			<script type="text/javascript">
+				/* init Jarallax */
+				$('.jarallax').jarallax({
+					speed: 0.5,
+					imgWidth: 1366,
+					imgHeight: 768
+				})
+			</script>
+			<script src="{{ url_for('static', filename='js/responsiveslides.min.js')}}"></script>
+			<script type="text/javascript" src="{{ url_for('static', filename='js/move-top.js')}}"></script>
+			<script type="text/javascript" src="{{ url_for('static', filename='js/easing.js')}}"></script>
+			<!-- here stars scrolling icon -->
+			<script type="text/javascript">
+				$(document).ready(function () {
+					/*
+						var defaults = {
+						containerID: 'toTop', // fading element id
+						containerHoverID: 'toTopHover', // fading element hover id
+						scrollSpeed: 1200,
+						easingType: 'linear' 
+						};
+					*/
+
+					$().UItoTop({ easingType: 'easeOutQuart' });
+
+				});
+			</script>
+			<!-- //here ends scrolling icon -->
+			<!-- Tabs-JavaScript -->
+			<!-- stats -->
+			<script src="{{ url_for('static', filename='js/jquery.waypoints.min.js')}}"></script>
+			<script src="{{ url_for('static', filename='js/jquery.countup.js')}}"></script>
+			<script>
+				$('.counter').countUp();
+			</script>
+			<!-- //stats -->
+</body>
+
+</html>
